@@ -1,0 +1,27 @@
+.gitignore
+# Byte-compiled / optimized / DLL files
+_pycache_/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+
+# Editor folders
+.idea/
+.vscode/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files and large data
+*.h5
+*.pt
+*.ckpt
+/models/
+
+# System files
+.DS_Store
+Thumbs.db
